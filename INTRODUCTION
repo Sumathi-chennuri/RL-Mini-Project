@@ -1,8 +1,0 @@
-Autonomous drones are widely used in agriculture, surveillance, and logistics. One of the primary challenges in autonomous drone navigation is avoiding obstacles while reaching a target location efficiently. Reinforcement Learning (RL) offers a promising approach where the drone learns from experience, improving its navigation strategy without human intervention.
-Reinforcement Learning Terms
-
-•	Agent: The drone itself, which makes decisions based on RL.
-•	State: The drone’s current position and surroundings, including obstacles and the goal.
-•	Action: The possible movements the drone can take in a 3D space.
-•	Reward: A numerical feedback signal that guides the agent’s learning.
-•	Environment: The 3D space in which the drone operates, including obstacles and the goal.
