@@ -1,4 +1,0 @@
-1.	Design a 3D simulation environment with randomly placed obstacles and a target location.
-2.	Implement a Deep Q-Network (DQN) agent to learn the best navigation policy.
-3.	Train the agent using reinforcement learning, where it receives rewards based on its actions.
-4.	Evaluate the agent’s performance through multiple training episodes.
