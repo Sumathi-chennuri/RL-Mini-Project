@@ -3,8 +3,13 @@ AUTONOMOUS DRONE NAVIGATION USING DYNAMIC ENVIRONMENT
 Problem Statement:
 
 Autonomous drones face challenges in navigating obstacle-filled environments while optimizing their paths efficiently. Traditional navigation methods require predefined paths, which may not be effective in dynamic scenarios. Reinforcement Learning (RL) enables drones to learn optimal navigation strategies through trial and error.
+git add aasets/rl_output.mp4
+git commit -m "Add RL output video"
+git push
 
-[▶️ Watch RL Output Video](video/rl_output.mp4)
+### ▶️ RL Output Video
+[Watch the RL output video](assets/rl_output.mp4)
+
 
 
 
