@@ -1,32 +1,45 @@
-AUTONOMOUS DRONE NAVIGATION USING DYNAMIC ENVIRONMENT
+🚁 Autonomous Drone Navigation using Deep Q-Networks (DQN)
 
-Problem Statement:
+This project demonstrates an autonomous drone navigating a 6x6 grid environment using a Deep Q-Network (DQN) for learning and decision-making. The drone learns to reach a target while avoiding randomly placed obstacles. Visualization is handled using Pygame with path planning shown via A* algorithm.
 
-Autonomous drones face challenges in navigating obstacle-filled environments while optimizing their paths efficiently. Traditional navigation methods require predefined paths, which may not be effective in dynamic scenarios. Reinforcement Learning (RL) enables drones to learn optimal navigation strategies through trial and error.
+✅ Features
+6x6 grid environment
 
+Random obstacle placement
 
-OBJECTIVE
+Deep Q-Network-based learning agent
 
-•	Develop RL-based navigation for obstacle avoidance.
-•	Train the drone using trial-and-error in a simulated environment.
-•	To implement a reward-based learning system that encourages efficient and safe navigation.
-•	To simulate various obstacle configurations and test the adaptability of the RL model.
-•	To visualize the drone’s learning process and movement using 3D graphical tools.
+A* algorithm for optimal path visualization
 
+Visual simulation using Pygame
 
-METHODOLOGY
+🧠 Tech Stack
+Python
 
-•	Create a 3D simulation.
-•	Implement a DQN agent.
-•	Train and evaluate the model.
-•	Integrate a reward function that penalizes collisions and rewards goal achievement.
-•	Apply experience replay to improve learning stability and efficiency.
-•	Visualize drone movement dynamically using Plotly for better interpretation of learning behavior.
+PyTorch (Deep Q-Learning)
 
+Pygame (Visualization)
 
-CONCLUSION
+NumPy (Grid management)
 
-This project successfully demonstrates the use of Reinforcement Learning for autonomous drone navigation in obstacle-filled environments. By using a Deep Q-Network, the drone learns optimal paths through trial and error. The approach highlights the potential of RL in real-world applications like robotics and autonomous systems.
+📦 Requirements
+Make sure you have the following installed:
+pip install pygame torch numpy
+
+📁 Assets
+Place the following image assets in assets/ folder:
+
+drone.png
+
+obstacle.png
+
+target.png
+
+path.jpeg
+
+▶️ How to Run
+python drone_navigation.py
+
 
 ### ▶️ RL Output Video
 [Watch the RL output video](assets/rl_output.mp4)
